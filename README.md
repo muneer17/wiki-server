@@ -1,6 +1,6 @@
 # wiki-server
 
-This is a brief description of your project.
+This project is my solution to the take home test given to me.
 
 ## Getting Started
 
