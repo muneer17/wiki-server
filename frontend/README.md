@@ -14,12 +14,14 @@ You need to have Docker installed on your machine. You can download Docker [here
 
 To build the Docker image, navigate to the directory containing the Dockerfile and run the following command:
 
-docker build -t your-image-name .
+docker build -t md-wiki:2019 .
 
 This will build a Docker image with the tag your-image-name. You can choose any name you like.
 
 Running the Docker Container
 After the image has been built, you can run the server with the following command:
+
+docker run -p 8080:8080 md-wiki:2019
 
 This will start a Docker container from the image you built, and map port 8080 in the container to port 8080 on your machine.
 
